@@ -1,0 +1,497 @@
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.samplesAssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.samplesAssemblyInfo.cs
+read version from
+reading file: 
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open ''
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open ''
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.samplesAssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.samplesAssemblyInfo.cs
+read version from
+path is empty
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.samplesAssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.samplesAssemblyInfo.cs
+read version from.samplesAssemblyInfo.cs
+reading file: .samplesAssemblyInfo.cs
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\samples\AssemblyInfo.cs
+read version from.\samples\AssemblyInfo.cs
+reading file: .\samples\AssemblyInfo.cs
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\samples\AssemblyInfo.cs
+read version from.\samples\AssemblyInfo.cs
+reading file: .\samples\AssemblyInfo.cs
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\samples\AssemblyInfo.cs
+read version from.\samples\AssemblyInfo.cs
+reading file: .\samples\AssemblyInfo.cs
+{ Error: ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+    at Error (native)
+    at Object.fs.openSync (fs.js:642:18)
+    at Object.fs.readFileSync (fs.js:510:33)
+    at Object.read (C:\Projekte\AzureDevOps\UpdateVersionTask\readVersion.js:14:23)
+    at C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:60:30
+    at next (native)
+    at C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:31:71
+    at __awaiter (C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:27:12)
+    at run (C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:42:12)
+    at Object.<anonymous> (C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:70:1)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Projekte\\AzureDevOps\\UpdateVersionTask\\samples\\AssemblyInfo.cs' }
+ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\tests\samples\AssemblyInfo.cs
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+data: ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("WakatimeInventorAddin")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+
+<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\tests\samples\AssemblyInfo.cs
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+data: ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("WakatimeInventorAddin")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+
+Values:
+   major:
+   minor:undefined
+   patch:undefined
+   build:undefined
+<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\tests\samples\AssemblyInfo.cs
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+data: ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("WakatimeInventorAddin")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+
+Values:
+   major:
+   minor:undefined
+   patch:undefined
+   build:undefined
+<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\tests\samples\AssemblyInfo.cs
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+data: ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("WakatimeInventorAddin")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+
+Values:
+   major:
+   minor:undefined
+   patch:undefined
+   build:undefined
+<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\tests\samples\AssemblyInfo.cs
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+data: ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+// General Information about an assembly is controlled through the following
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("WakatimeInventorAddin")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+
+Values:
+   major:
+   minor:undefined
+   patch:undefined
+   build:undefined
+<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]samplestring=human2
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+input:
+  samplestring:human2
+  projectfile:.\tests\samples\AssemblyInfo.cs
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+VersionStr:﻿using System.Re
+Values:
+   major:﻿using System
+   minor:Re
+   patch:undefined
+   build:undefined
+<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loading INPUT_SAMPLESTRING
+##vso[task.debug]loaded 2
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]Input required: increaseMajor
+##vso[task.complete result=Failed;]Input required: increaseMajor
+
