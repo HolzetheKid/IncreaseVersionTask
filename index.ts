@@ -15,24 +15,49 @@ async function run() {
                     
             return;
         }
-        
-        console.log("read version from" + config?.file)
+      
+        console.log("---read version from" + config?.file+ "---")
         var version = vr.read(config?.file!)
+        console.log("------");
+        
+        console.log("---config:---");
+        console.log("increase major:" + config?.increaseMajor);
+        console.log("increase minor:" + config?.increaseMinor);
+        console.log("increase patch:" + config?.increasePatch);
+        console.log("increase build:" + config?.increaseBuild);
+        console.log("------");
 
         console.log("increase version");
+
+        
         if(config?.increaseMajor && version?.major!= undefined) {
-            version.major = version.major+1
+            console.log("increase major ");
+            var numberValue: number = +version.major;
+            console.log("numbervalue "+ numberValue);
+            numberValue = numberValue + 1
+            version.major = numberValue.toString()
         }
+
         if(config?.increaseMinor && version?.minor!= undefined) {
-            version.major = version.minor+1
+            console.log("increase minor ");
+            var numberValue: number = +version.minor;
+            numberValue = numberValue + 1
+            version.minor = numberValue.toString();
         }
 
         if(config?.increasePatch && version?.patch!= undefined) {
-            version.major = version.patch+1
+           
+            console.log("increase patch");
+            var numberValue: number = +version.patch;
+            numberValue = numberValue + 1
+            version.patch = numberValue.toString();
         }
 
-        if(config?.increaseMajor && version?.major!= undefined) {
-            version.major = version.major+1
+        if(config?.increaseBuild && version?.build!= undefined) {
+            console.log("increase build ");
+            var numberValue: number = +version.build;
+            numberValue = numberValue + 1
+            version.build = numberValue.toString();
         }
 
         console.log("write new  version");
