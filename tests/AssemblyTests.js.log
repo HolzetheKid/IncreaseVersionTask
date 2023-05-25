@@ -1,185 +1,24 @@
 ##vso[task.debug]agent.TempDirectory=undefined
 ##vso[task.debug]agent.workFolder=undefined
 ##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
 ##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
+##vso[task.debug]loaded 5
 ##vso[task.debug]Agent.ProxyUrl=undefined
 ##vso[task.debug]Agent.CAInfo=undefined
 ##vso[task.debug]Agent.ClientCert=undefined
 ##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
-##vso[task.debug]projectfile=.samplesAssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.samplesAssemblyInfo.cs
-read version from
-reading file: 
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open ''
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open ''
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
-
-##vso[task.debug]agent.TempDirectory=undefined
-##vso[task.debug]agent.workFolder=undefined
-##vso[task.debug]loading inputs and endpoints
-##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
-##vso[task.debug]Agent.ProxyUrl=undefined
-##vso[task.debug]Agent.CAInfo=undefined
-##vso[task.debug]Agent.ClientCert=undefined
-##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
-##vso[task.debug]projectfile=.samplesAssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.samplesAssemblyInfo.cs
-read version from
-path is empty
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
-
-##vso[task.debug]agent.TempDirectory=undefined
-##vso[task.debug]agent.workFolder=undefined
-##vso[task.debug]loading inputs and endpoints
-##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
-##vso[task.debug]Agent.ProxyUrl=undefined
-##vso[task.debug]Agent.CAInfo=undefined
-##vso[task.debug]Agent.ClientCert=undefined
-##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
-##vso[task.debug]projectfile=.samplesAssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.samplesAssemblyInfo.cs
-read version from.samplesAssemblyInfo.cs
-reading file: .samplesAssemblyInfo.cs
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\.samplesAssemblyInfo.cs'
-
-##vso[task.debug]agent.TempDirectory=undefined
-##vso[task.debug]agent.workFolder=undefined
-##vso[task.debug]loading inputs and endpoints
-##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
-##vso[task.debug]Agent.ProxyUrl=undefined
-##vso[task.debug]Agent.CAInfo=undefined
-##vso[task.debug]Agent.ClientCert=undefined
-##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
-##vso[task.debug]projectfile=.\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\samples\AssemblyInfo.cs
-read version from.\samples\AssemblyInfo.cs
-reading file: .\samples\AssemblyInfo.cs
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-
-##vso[task.debug]agent.TempDirectory=undefined
-##vso[task.debug]agent.workFolder=undefined
-##vso[task.debug]loading inputs and endpoints
-##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
-##vso[task.debug]Agent.ProxyUrl=undefined
-##vso[task.debug]Agent.CAInfo=undefined
-##vso[task.debug]Agent.ClientCert=undefined
-##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
-##vso[task.debug]projectfile=.\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\samples\AssemblyInfo.cs
-read version from.\samples\AssemblyInfo.cs
-reading file: .\samples\AssemblyInfo.cs
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-
-##vso[task.debug]agent.TempDirectory=undefined
-##vso[task.debug]agent.workFolder=undefined
-##vso[task.debug]loading inputs and endpoints
-##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
-##vso[task.debug]Agent.ProxyUrl=undefined
-##vso[task.debug]Agent.CAInfo=undefined
-##vso[task.debug]Agent.ClientCert=undefined
-##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
-##vso[task.debug]projectfile=.\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\samples\AssemblyInfo.cs
-read version from.\samples\AssemblyInfo.cs
-reading file: .\samples\AssemblyInfo.cs
-{ Error: ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-    at Error (native)
-    at Object.fs.openSync (fs.js:642:18)
-    at Object.fs.readFileSync (fs.js:510:33)
-    at Object.read (C:\Projekte\AzureDevOps\UpdateVersionTask\readVersion.js:14:23)
-    at C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:60:30
-    at next (native)
-    at C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:31:71
-    at __awaiter (C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:27:12)
-    at run (C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:42:12)
-    at Object.<anonymous> (C:\Projekte\AzureDevOps\UpdateVersionTask\index.js:70:1)
-  errno: -4058,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: 'C:\\Projekte\\AzureDevOps\\UpdateVersionTask\\samples\\AssemblyInfo.cs' }
-ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-##vso[task.complete result=Failed;]ENOENT: no such file or directory, open 'C:\Projekte\AzureDevOps\UpdateVersionTask\samples\AssemblyInfo.cs'
-
-##vso[task.debug]agent.TempDirectory=undefined
-##vso[task.debug]agent.workFolder=undefined
-##vso[task.debug]loading inputs and endpoints
-##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
-##vso[task.debug]Agent.ProxyUrl=undefined
-##vso[task.debug]Agent.CAInfo=undefined
-##vso[task.debug]Agent.ClientCert=undefined
-##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
 ##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
 read version from.\tests\samples\AssemblyInfo.cs
 reading file: .\tests\samples\AssemblyInfo.cs
-data: ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("WakatimeInventorAddin")]
+VersionStr:)]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
@@ -205,37 +44,62 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
 
-<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+increase version
+write new  version
 
 ##vso[task.debug]agent.TempDirectory=undefined
 ##vso[task.debug]agent.workFolder=undefined
 ##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
 ##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
+##vso[task.debug]loaded 5
 ##vso[task.debug]Agent.ProxyUrl=undefined
 ##vso[task.debug]Agent.CAInfo=undefined
 ##vso[task.debug]Agent.ClientCert=undefined
 ##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
 ##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
 read version from.\tests\samples\AssemblyInfo.cs
 reading file: .\tests\samples\AssemblyInfo.cs
-data: ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("WakatimeInventorAddin")]
+VersionStr:)]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
@@ -261,35 +125,1009 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
 
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+increase version
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+increase version
+numbervalue NaN
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+increase version
+increase major 
+numbervalue NaN
+increase minor 
+increase patch
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+config:
+increase major:true
+increase version
+increase major 
+numbervalue NaN
+increase minor 
+increase patch
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue NaN
+increase minor 
+increase patch
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue NaN
+increase minor 
+increase patch
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue NaN
+increase minor 
+increase patch
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue NaN
+increase minor 
+increase patch
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+ AssemblyInfo VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue NaN
+increase minor 
+increase patch
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+-----------
+true
+true
+true
+true
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+ AssemblyInfo VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue NaN
+increase minor 
+increase patch
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+ AssemblyInfo VersionStr:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+Values:
+   major:)]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WakatimeInventorAddin")]
+[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components
+   minor:  If you need to access a type in this assembly from
+// COM, set the ComVisible attribute to true on that type
+   patch:
+[assembly: ComVisible(true)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
+
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Build and Revision Numbers
+// by using the '*' as shown below:
+// [assembly: AssemblyVersion(
+   build:undefined
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+ AssemblyInfo VersionStr:
 Values:
    major:
    minor:undefined
    patch:undefined
    build:undefined
-<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
 
 ##vso[task.debug]agent.TempDirectory=undefined
 ##vso[task.debug]agent.workFolder=undefined
 ##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
 ##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
+##vso[task.debug]loaded 5
 ##vso[task.debug]Agent.ProxyUrl=undefined
 ##vso[task.debug]Agent.CAInfo=undefined
 ##vso[task.debug]Agent.ClientCert=undefined
 ##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
 ##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
 read version from.\tests\samples\AssemblyInfo.cs
 reading file: .\tests\samples\AssemblyInfo.cs
-data: ﻿using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -326,172 +1164,584 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
+Document {
+  implementation: { _features: {} },
+  childNodes: 
+   { '0': 
+      Text {
+        ownerDocument: [Circular],
+        data: '﻿using System.Reflection;\r\nusing System.Runtime.CompilerServices;\r\nusing System.Runtime.InteropServices;\r\n\r\n// General Information about an assembly is controlled through the following\r\n// set of attributes. Change these attribute values to modify the information\r\n// associated with an assembly.\r\n[assembly: AssemblyTitle("WakatimeInventorAddin")]\r\n[assembly: AssemblyDescription("")]\r\n[assembly: AssemblyConfiguration("")]\r\n[assembly: AssemblyCompany("")]\r\n[assembly: AssemblyProduct("WakatimeInventorAddin")]\r\n[assembly: AssemblyCopyright("Copyright ©  2021")]\r\n[assembly: AssemblyTrademark("")]\r\n[assembly: AssemblyCulture("")]\r\n\r\n// Setting ComVisible to false makes the types in this assembly not visible\r\n// to COM components.  If you need to access a type in this assembly from\r\n// COM, set the ComVisible attribute to true on that type.\r\n[assembly: ComVisible(true)]\r\n\r\n// The following GUID is for the ID of the typelib if this project is exposed to COM\r\n[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]\r\n\r\n// Version information for an assembly consists of the following four values:\r\n//\r\n//      Major Version\r\n//      Minor Version\r\n//      Build Number\r\n//      Revision\r\n//\r\n// You can specify all the values or you can default the Build and Revision Numbers\r\n// by using the \'*\' as shown below:\r\n// [assembly: AssemblyVersion("1.0.*")]\r\n[assembly: AssemblyVersion("1.0.0.0")]\r\n[assembly: AssemblyFileVersion("1.0.0.0")]\r\n',
+        nodeValue: '﻿using System.Reflection;\r\nusing System.Runtime.CompilerServices;\r\nusing System.Runtime.InteropServices;\r\n\r\n// General Information about an assembly is controlled through the following\r\n// set of attributes. Change these attribute values to modify the information\r\n// associated with an assembly.\r\n[assembly: AssemblyTitle("WakatimeInventorAddin")]\r\n[assembly: AssemblyDescription("")]\r\n[assembly: AssemblyConfiguration("")]\r\n[assembly: AssemblyCompany("")]\r\n[assembly: AssemblyProduct("WakatimeInventorAddin")]\r\n[assembly: AssemblyCopyright("Copyright ©  2021")]\r\n[assembly: AssemblyTrademark("")]\r\n[assembly: AssemblyCulture("")]\r\n\r\n// Setting ComVisible to false makes the types in this assembly not visible\r\n// to COM components.  If you need to access a type in this assembly from\r\n// COM, set the ComVisible attribute to true on that type.\r\n[assembly: ComVisible(true)]\r\n\r\n// The following GUID is for the ID of the typelib if this project is exposed to COM\r\n[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]\r\n\r\n// Version information for an assembly consists of the following four values:\r\n//\r\n//      Major Version\r\n//      Minor Version\r\n//      Build Number\r\n//      Revision\r\n//\r\n// You can specify all the values or you can default the Build and Revision Numbers\r\n// by using the \'*\' as shown below:\r\n// [assembly: AssemblyVersion("1.0.*")]\r\n[assembly: AssemblyVersion("1.0.0.0")]\r\n[assembly: AssemblyFileVersion("1.0.0.0")]\r\n',
+        length: 1445,
+        previousSibling: null,
+        nextSibling: null,
+        parentNode: [Circular] },
+     length: 1 },
+  doctype: null,
+  documentURI: undefined,
+  firstChild: 
+   Text {
+     ownerDocument: [Circular],
+     data: '﻿using System.Reflection;\r\nusing System.Runtime.CompilerServices;\r\nusing System.Runtime.InteropServices;\r\n\r\n// General Information about an assembly is controlled through the following\r\n// set of attributes. Change these attribute values to modify the information\r\n// associated with an assembly.\r\n[assembly: AssemblyTitle("WakatimeInventorAddin")]\r\n[assembly: AssemblyDescription("")]\r\n[assembly: AssemblyConfiguration("")]\r\n[assembly: AssemblyCompany("")]\r\n[assembly: AssemblyProduct("WakatimeInventorAddin")]\r\n[assembly: AssemblyCopyright("Copyright ©  2021")]\r\n[assembly: AssemblyTrademark("")]\r\n[assembly: AssemblyCulture("")]\r\n\r\n// Setting ComVisible to false makes the types in this assembly not visible\r\n// to COM components.  If you need to access a type in this assembly from\r\n// COM, set the ComVisible attribute to true on that type.\r\n[assembly: ComVisible(true)]\r\n\r\n// The following GUID is for the ID of the typelib if this project is exposed to COM\r\n[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]\r\n\r\n// Version information for an assembly consists of the following four values:\r\n//\r\n//      Major Version\r\n//      Minor Version\r\n//      Build Number\r\n//      Revision\r\n//\r\n// You can specify all the values or you can default the Build and Revision Numbers\r\n// by using the \'*\' as shown below:\r\n// [assembly: AssemblyVersion("1.0.*")]\r\n[assembly: AssemblyVersion("1.0.0.0")]\r\n[assembly: AssemblyFileVersion("1.0.0.0")]\r\n',
+     nodeValue: '﻿using System.Reflection;\r\nusing System.Runtime.CompilerServices;\r\nusing System.Runtime.InteropServices;\r\n\r\n// General Information about an assembly is controlled through the following\r\n// set of attributes. Change these attribute values to modify the information\r\n// associated with an assembly.\r\n[assembly: AssemblyTitle("WakatimeInventorAddin")]\r\n[assembly: AssemblyDescription("")]\r\n[assembly: AssemblyConfiguration("")]\r\n[assembly: AssemblyCompany("")]\r\n[assembly: AssemblyProduct("WakatimeInventorAddin")]\r\n[assembly: AssemblyCopyright("Copyright ©  2021")]\r\n[assembly: AssemblyTrademark("")]\r\n[assembly: AssemblyCulture("")]\r\n\r\n// Setting ComVisible to false makes the types in this assembly not visible\r\n// to COM components.  If you need to access a type in this assembly from\r\n// COM, set the ComVisible attribute to true on that type.\r\n[assembly: ComVisible(true)]\r\n\r\n// The following GUID is for the ID of the typelib if this project is exposed to COM\r\n[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]\r\n\r\n// Version information for an assembly consists of the following four values:\r\n//\r\n//      Major Version\r\n//      Minor Version\r\n//      Build Number\r\n//      Revision\r\n//\r\n// You can specify all the values or you can default the Build and Revision Numbers\r\n// by using the \'*\' as shown below:\r\n// [assembly: AssemblyVersion("1.0.*")]\r\n[assembly: AssemblyVersion("1.0.0.0")]\r\n[assembly: AssemblyFileVersion("1.0.0.0")]\r\n',
+     length: 1445,
+     previousSibling: null,
+     nextSibling: null,
+     parentNode: [Circular] },
+  lastChild: 
+   Text {
+     ownerDocument: [Circular],
+     data: '﻿using System.Reflection;\r\nusing System.Runtime.CompilerServices;\r\nusing System.Runtime.InteropServices;\r\n\r\n// General Information about an assembly is controlled through the following\r\n// set of attributes. Change these attribute values to modify the information\r\n// associated with an assembly.\r\n[assembly: AssemblyTitle("WakatimeInventorAddin")]\r\n[assembly: AssemblyDescription("")]\r\n[assembly: AssemblyConfiguration("")]\r\n[assembly: AssemblyCompany("")]\r\n[assembly: AssemblyProduct("WakatimeInventorAddin")]\r\n[assembly: AssemblyCopyright("Copyright ©  2021")]\r\n[assembly: AssemblyTrademark("")]\r\n[assembly: AssemblyCulture("")]\r\n\r\n// Setting ComVisible to false makes the types in this assembly not visible\r\n// to COM components.  If you need to access a type in this assembly from\r\n// COM, set the ComVisible attribute to true on that type.\r\n[assembly: ComVisible(true)]\r\n\r\n// The following GUID is for the ID of the typelib if this project is exposed to COM\r\n[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]\r\n\r\n// Version information for an assembly consists of the following four values:\r\n//\r\n//      Major Version\r\n//      Minor Version\r\n//      Build Number\r\n//      Revision\r\n//\r\n// You can specify all the values or you can default the Build and Revision Numbers\r\n// by using the \'*\' as shown below:\r\n// [assembly: AssemblyVersion("1.0.*")]\r\n[assembly: AssemblyVersion("1.0.0.0")]\r\n[assembly: AssemblyFileVersion("1.0.0.0")]\r\n',
+     nodeValue: '﻿using System.Reflection;\r\nusing System.Runtime.CompilerServices;\r\nusing System.Runtime.InteropServices;\r\n\r\n// General Information about an assembly is controlled through the following\r\n// set of attributes. Change these attribute values to modify the information\r\n// associated with an assembly.\r\n[assembly: AssemblyTitle("WakatimeInventorAddin")]\r\n[assembly: AssemblyDescription("")]\r\n[assembly: AssemblyConfiguration("")]\r\n[assembly: AssemblyCompany("")]\r\n[assembly: AssemblyProduct("WakatimeInventorAddin")]\r\n[assembly: AssemblyCopyright("Copyright ©  2021")]\r\n[assembly: AssemblyTrademark("")]\r\n[assembly: AssemblyCulture("")]\r\n\r\n// Setting ComVisible to false makes the types in this assembly not visible\r\n// to COM components.  If you need to access a type in this assembly from\r\n// COM, set the ComVisible attribute to true on that type.\r\n[assembly: ComVisible(true)]\r\n\r\n// The following GUID is for the ID of the typelib if this project is exposed to COM\r\n[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]\r\n\r\n// Version information for an assembly consists of the following four values:\r\n//\r\n//      Major Version\r\n//      Minor Version\r\n//      Build Number\r\n//      Revision\r\n//\r\n// You can specify all the values or you can default the Build and Revision Numbers\r\n// by using the \'*\' as shown below:\r\n// [assembly: AssemblyVersion("1.0.*")]\r\n[assembly: AssemblyVersion("1.0.0.0")]\r\n[assembly: AssemblyFileVersion("1.0.0.0")]\r\n',
+     length: 1445,
+     previousSibling: null,
+     nextSibling: null,
+     parentNode: [Circular] },
+  _inc: 2 }
+ AssemblyInfo VersionStr:
 Values:
    major:
    minor:undefined
    patch:undefined
    build:undefined
-<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
 
 ##vso[task.debug]agent.TempDirectory=undefined
 ##vso[task.debug]agent.workFolder=undefined
 ##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
 ##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
+##vso[task.debug]loaded 5
 ##vso[task.debug]Agent.ProxyUrl=undefined
 ##vso[task.debug]Agent.CAInfo=undefined
 ##vso[task.debug]Agent.ClientCert=undefined
 ##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
 ##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
 read version from.\tests\samples\AssemblyInfo.cs
 reading file: .\tests\samples\AssemblyInfo.cs
-data: ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("WakatimeInventorAddin")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WakatimeInventorAddin")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(true)]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
-
 Values:
-   major:
+   major:undefined
    minor:undefined
    patch:undefined
    build:undefined
-<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+AssemblyVersion: 1.0.0.0
 
 ##vso[task.debug]agent.TempDirectory=undefined
 ##vso[task.debug]agent.workFolder=undefined
 ##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
 ##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
+##vso[task.debug]loaded 5
 ##vso[task.debug]Agent.ProxyUrl=undefined
 ##vso[task.debug]Agent.CAInfo=undefined
 ##vso[task.debug]Agent.ClientCert=undefined
 ##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
 ##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
 read version from.\tests\samples\AssemblyInfo.cs
 reading file: .\tests\samples\AssemblyInfo.cs
-data: ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-
-// General Information about an assembly is controlled through the following
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle("WakatimeInventorAddin")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WakatimeInventorAddin")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(true)]
-
-// The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4c0d9f7b-77d9-4034-819e-f4020d08818f")]
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Build and Revision Numbers
-// by using the '*' as shown below:
-// [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
-
+jkkjkjkjkjk
 Values:
-   major:
+   major:undefined
    minor:undefined
    patch:undefined
    build:undefined
-<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+AssemblyVersion: 1.0.0.0
 
 ##vso[task.debug]agent.TempDirectory=undefined
 ##vso[task.debug]agent.workFolder=undefined
 ##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
 ##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
+##vso[task.debug]loaded 5
 ##vso[task.debug]Agent.ProxyUrl=undefined
 ##vso[task.debug]Agent.CAInfo=undefined
 ##vso[task.debug]Agent.ClientCert=undefined
 ##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]samplestring=human2
 ##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
-input:
-  samplestring:human2
-  projectfile:.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
 read version from.\tests\samples\AssemblyInfo.cs
 reading file: .\tests\samples\AssemblyInfo.cs
-VersionStr:﻿using System.Re
+jkkjkjkjkjk
 Values:
-   major:﻿using System
-   minor:Re
+   major:undefined
+   minor:undefined
    patch:undefined
    build:undefined
-<Buffer ef bb bf 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 65 66 6c 65 63 74 69 6f 6e 3b 0d 0a 75 73 69 6e 67 20 53 79 73 74 65 6d 2e 52 75 6e 74 69 6d 65 2e ... >
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+AssemblyVersion: 1.0.0.0
 
 ##vso[task.debug]agent.TempDirectory=undefined
 ##vso[task.debug]agent.workFolder=undefined
 ##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
 ##vso[task.debug]loading INPUT_PROJECTFILE
-##vso[task.debug]loading INPUT_SAMPLESTRING
-##vso[task.debug]loaded 2
+##vso[task.debug]loaded 5
 ##vso[task.debug]Agent.ProxyUrl=undefined
 ##vso[task.debug]Agent.CAInfo=undefined
 ##vso[task.debug]Agent.ClientCert=undefined
 ##vso[task.debug]Agent.SkipCertValidation=undefined
 ##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+Promise { <pending> }
+Values:
+   major:undefined
+   minor:undefined
+   patch:undefined
+   build:undefined
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
 ##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]Input required: increaseMajor
-##vso[task.complete result=Failed;]Input required: increaseMajor
+##vso[task.issue type=error;]Unhandled: AssemblyVersion not found in the file.
+##vso[task.complete result=Failed;]Unhandled: AssemblyVersion not found in the file.
+##vso[task.issue type=error;]Error: AssemblyVersion not found in the file.%0A    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:130:20)%0A    at emitNone (events.js:91:20)%0A    at Interface.emit (events.js:185:7)%0A    at Interface.close (readline.js:319:8)%0A    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:124:24)%0A    at emitOne (events.js:96:13)%0A    at Interface.emit (events.js:188:7)%0A    at Interface._onLine (readline.js:232:10)%0A    at Interface.<anonymous> (readline.js:375:12)%0A    at Array.forEach (native)
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+Promise { <pending> }
+Values:
+   major:undefined
+   minor:undefined
+   patch:undefined
+   build:undefined
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]Unhandled: AssemblyVersion not found in the file.
+##vso[task.complete result=Failed;]Unhandled: AssemblyVersion not found in the file.
+##vso[task.issue type=error;]Error: AssemblyVersion not found in the file.%0A    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:137:20)%0A    at emitNone (events.js:91:20)%0A    at Interface.emit (events.js:185:7)%0A    at Interface.close (readline.js:319:8)%0A    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:131:24)%0A    at emitOne (events.js:96:13)%0A    at Interface.emit (events.js:188:7)%0A    at Interface._onLine (readline.js:232:10)%0A    at Interface.<anonymous> (readline.js:375:12)%0A    at Array.forEach (native)
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+Values:
+   major:undefined
+   minor:undefined
+   patch:undefined
+   build:undefined
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+##vso[task.debug]task result: Failed
+##vso[task.issue type=error;]Unhandled: AssemblyVersion not found in the file.
+##vso[task.complete result=Failed;]Unhandled: AssemblyVersion not found in the file.
+##vso[task.issue type=error;]Error: AssemblyVersion not found in the file.%0A    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:136:20)%0A    at emitNone (events.js:91:20)%0A    at Interface.emit (events.js:185:7)%0A    at Interface.close (readline.js:319:8)%0A    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:130:24)%0A    at emitOne (events.js:96:13)%0A    at Interface.emit (events.js:188:7)%0A    at Interface._onLine (readline.js:232:10)%0A    at Interface.<anonymous> (readline.js:375:12)%0A    at Array.forEach (native)
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+Values:
+   major:undefined
+   minor:undefined
+   patch:undefined
+   build:undefined
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+
+STDERR: An error occurred: Error: AssemblyVersion not found in the file.
+    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:138:20)
+    at emitNone (events.js:91:20)
+    at Interface.emit (events.js:185:7)
+    at Interface.close (readline.js:319:8)
+    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:132:24)
+    at emitOne (events.js:96:13)
+    at Interface.emit (events.js:188:7)
+    at Interface._onLine (readline.js:232:10)
+    at Interface.<anonymous> (readline.js:375:12)
+    at Array.forEach (native)
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+Values:
+   major:undefined
+   minor:undefined
+   patch:undefined
+   build:undefined
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+
+STDERR: An error occurred: Error: AssemblyVersion not found in the file.
+    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:138:20)
+    at emitNone (events.js:91:20)
+    at Interface.emit (events.js:185:7)
+    at Interface.close (readline.js:319:8)
+    at Interface.reader.on (C:\Projekte\AzureDevOps\UpdateVersionTask\readWriteVersion.js:132:24)
+    at emitOne (events.js:96:13)
+    at Interface.emit (events.js:188:7)
+    at Interface._onLine (readline.js:232:10)
+    at Interface.<anonymous> (readline.js:375:12)
+    at Array.forEach (native)
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\AssemblyInfo.cs
+reading file: .\tests\samples\AssemblyInfo.cs
+1.0.0.5
+Values:
+   major:undefined
+   minor:undefined
+   patch:undefined
+   build:undefined
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\AssemblyInfo.cs---
+reading file: .\tests\samples\AssemblyInfo.cs
+AssemblyInfo VersionStr:1.0.0.5
+Values:
+   major:1
+   minor:0
+   patch:0
+   build:5
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\AssemblyInfo.cs---
+reading file: .\tests\samples\AssemblyInfo.cs
+AssemblyInfo VersionStr:1.0.0.5
+Values:
+   major:1
+   minor:0
+   patch:0
+   build:5
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\AssemblyInfo.cs---
+reading file: .\tests\samples\AssemblyInfo.cs
+AssemblyInfo VersionStr:1.0.0.5
+Values:
+   major:1
+   minor:0
+   patch:0
+   build:5
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase build 
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\AssemblyInfo.cs---
+reading file: .\tests\samples\AssemblyInfo.cs
+AssemblyInfo VersionStr:1.0.0.5
+Values:
+   major:1
+   minor:0
+   patch:0
+   build:5
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase build 
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\AssemblyInfo.cs---
+reading file: .\tests\samples\AssemblyInfo.cs
+AssemblyInfo VersionStr:1.0.0.5
+Values:
+   major:1
+   minor:0
+   patch:0
+   build:5
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase build 
+write new  version
 

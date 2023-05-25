@@ -27,9 +27,7 @@ async function run() {
         console.log("increase build:" + config?.increaseBuild);
         console.log("------");
 
-        console.log("increase version");
-
-        
+               
         if(config?.increaseMajor && version?.major!= undefined) {
             console.log("increase major ");
             var numberValue: number = +version.major;
@@ -65,6 +63,9 @@ async function run() {
 
     }
     catch (err) {
+
+        console.log(err)
+        console.log((err as Error).message)
         tl.setResult(tl.TaskResult.Failed, (err as Error).message);
     }
 }

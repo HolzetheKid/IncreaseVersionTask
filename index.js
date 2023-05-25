@@ -44,25 +44,46 @@ function run() {
                 tl.setResult(tl.TaskResult.Failed, 'project file not set');
                 return;
             }
-            console.log("read version from" + (config === null || config === void 0 ? void 0 : config.file));
+            console.log("---read version from" + (config === null || config === void 0 ? void 0 : config.file) + "---");
             var version = vr.read(config === null || config === void 0 ? void 0 : config.file);
-            console.log("increase version");
+            console.log("------");
+            console.log("---config:---");
+            console.log("increase major:" + (config === null || config === void 0 ? void 0 : config.increaseMajor));
+            console.log("increase minor:" + (config === null || config === void 0 ? void 0 : config.increaseMinor));
+            console.log("increase patch:" + (config === null || config === void 0 ? void 0 : config.increasePatch));
+            console.log("increase build:" + (config === null || config === void 0 ? void 0 : config.increaseBuild));
+            console.log("------");
             if ((config === null || config === void 0 ? void 0 : config.increaseMajor) && (version === null || version === void 0 ? void 0 : version.major) != undefined) {
-                version.major = version.major + 1;
+                console.log("increase major ");
+                var numberValue = +version.major;
+                console.log("numbervalue " + numberValue);
+                numberValue = numberValue + 1;
+                version.major = numberValue.toString();
             }
             if ((config === null || config === void 0 ? void 0 : config.increaseMinor) && (version === null || version === void 0 ? void 0 : version.minor) != undefined) {
-                version.major = version.minor + 1;
+                console.log("increase minor ");
+                var numberValue = +version.minor;
+                numberValue = numberValue + 1;
+                version.minor = numberValue.toString();
             }
             if ((config === null || config === void 0 ? void 0 : config.increasePatch) && (version === null || version === void 0 ? void 0 : version.patch) != undefined) {
-                version.major = version.patch + 1;
+                console.log("increase patch");
+                var numberValue = +version.patch;
+                numberValue = numberValue + 1;
+                version.patch = numberValue.toString();
             }
-            if ((config === null || config === void 0 ? void 0 : config.increaseMajor) && (version === null || version === void 0 ? void 0 : version.major) != undefined) {
-                version.major = version.major + 1;
+            if ((config === null || config === void 0 ? void 0 : config.increaseBuild) && (version === null || version === void 0 ? void 0 : version.build) != undefined) {
+                console.log("increase build ");
+                var numberValue = +version.build;
+                numberValue = numberValue + 1;
+                version.build = numberValue.toString();
             }
             console.log("write new  version");
             vr.write(config === null || config === void 0 ? void 0 : config.file, version);
         }
         catch (err) {
+            console.log(err);
+            console.log(err.message);
             tl.setResult(tl.TaskResult.Failed, err.message);
         }
     });

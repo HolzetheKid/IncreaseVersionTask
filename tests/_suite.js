@@ -31,51 +31,31 @@ describe('Sample task tests', function () {
     });
     after(() => {
     });
-    it('should succeed with simple inputs', function (done) {
-        this.timeout(1000);
-        let tp = path.join(__dirname, 'success.js');
-        let tr = new ttm.MockTestRunner(tp);
-        tr.run();
-        console.log(tr.succeeded);
-        assert.equal(tr.succeeded, true, 'should have succeeded');
-        assert.equal(tr.warningIssues.length, 0, "should have no warnings");
-        assert.equal(tr.errorIssues.length, 0, "should have no errors");
-        console.log(tr.stdout);
-        assert.equal(tr.stdout.indexOf('Hello human2') >= 0, true, "should display Hello human");
-        done();
-    });
-    it('it should fail if tool returns 1', function (done) {
-        this.timeout(1000);
-        let tp = path.join(__dirname, 'failure.js');
-        let tr = new ttm.MockTestRunner(tp);
-        tr.run();
-        console.log(tr.succeeded);
-        assert.equal(tr.succeeded, false, 'should have failed');
-        assert.equal(tr.warningIssues.length, 0, "should have no warnings");
-        assert.equal(tr.errorIssues.length, 1, "should have 1 error issue");
-        assert.equal(tr.errorIssues[0], 'Bad input was given', 'error issue output');
-        assert.equal(tr.stdout.indexOf('Hello bad'), -1, "Should not display Hello bad");
-        done();
-    });
-    it('read assembyl.cs', function (done) {
+    it('execute read assembyl.cs', function (done) {
         this.timeout(1000);
         let tp = path.join(__dirname, 'AssemblyTests.js');
         let tr = new ttm.MockTestRunner(tp);
         tr.run();
         console.log(tr.succeeded);
-        assert.equal(tr.succeeded, false, 'should have failed');
-        assert.equal(tr.warningIssues.length, 0, "should have no warnings");
-        assert.equal(tr.errorIssues.length, 1, "should have 1 error issue");
-        assert.equal(tr.errorIssues[0], 'Bad input was given', 'error issue output');
-        assert.equal(tr.stdout.indexOf('Hello bad'), -1, "Should not display Hello bad");
+        assert.equal(tr.succeeded, true, 'should not failed');
         done();
     });
-    it('read csproj', function (done) {
+    it('execute read csproj', function (done) {
         this.timeout(1000);
         let tp = path.join(__dirname, 'csProjectTests.js');
         let tr = new ttm.MockTestRunner(tp);
         tr.run();
         console.log(tr.succeeded);
+        assert.equal(tr.succeeded, true, 'should not failed');
+        done();
+    });
+    it('execute read tests', function (done) {
+        this.timeout(1000);
+        let tp = path.join(__dirname, 'readtests.js');
+        let tr = new ttm.MockTestRunner(tp);
+        tr.run();
+        console.log(tr.succeeded);
+        assert.equal(tr.succeeded, true, 'should not failed');
         done();
     });
 });

@@ -1,35 +1,29 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.write = exports.read = void 0;
+exports.parseVersion = exports.readCsProjectVersionSync = exports.readAssemblyVersionSync = exports.write = exports.read = void 0;
 const tl = require("azure-pipelines-task-lib/task");
 const fs = require("fs");
 function read(path) {
-    var result = {};
     if (path.length == 0) {
         console.log("path is empty");
         return undefined;
     }
     console.log("reading file: " + path);
     try {
-        var data = fs.readFileSync(path, "utf8");
+        var versionStr;
         if (path.endsWith(".csproj")) {
-            var startStr = "<AssemblyVersion>";
-            var endStr = "</AssemblyVersion>";
-            var start = data.indexOf(startStr) + startStr.length;
-            var end = data.indexOf(endStr);
-            var versionstr = data.substring(start, end);
-            console.log("VersionStr:" + versionstr);
-            var arr = versionstr.split(".");
-            result.source = versionstr;
-            if (arr.length > 0)
-                result.major = arr[0];
-            if (arr.length > 1)
-                result.minor = arr[1];
-            if (arr.length > 2)
-                result.patch = arr[2];
-            if (arr.length > 3)
-                result.build = arr[3];
+            versionStr = readCsProjectVersionSync(path);
+            console.log("csproj VersionStr:" + versionStr);
         }
+        else if (path.endsWith("AssemblyInfo.cs")) {
+            versionStr = readAssemblyVersionSync(path);
+            console.log("AssemblyInfo VersionStr:" + versionStr);
+        }
+        if (versionStr == undefined)
+            return undefined;
+        var result = parseVersion(versionStr);
+        if (result == undefined)
+            return undefined;
         console.log("Values:");
         console.log("   major:" + result.major);
         console.log("   minor:" + result.minor);
@@ -58,10 +52,10 @@ function write(path, version) {
             var end = data.indexOf(endStr);
             var newVersionStr = version.major + "." + version.minor + "." + version.patch + "." + version.build;
             var oldVersionStr = data.substring(data.indexOf(startStr), end);
-            data = data.replace(oldVersionStr, newVersionStr);
             console.log("NewVersionStr:" + newVersionStr);
             console.log("OldVersionStr:" + oldVersionStr);
-            console.log("new Data:" + data);
+            data = data.replace(oldVersionStr, newVersionStr);
+            //  console.log("new Data:" + data)
         }
     }
     catch (err) {
@@ -71,3 +65,57 @@ function write(path, version) {
     }
 }
 exports.write = write;
+function readAssemblyVersionSync(filePath) {
+    try {
+        // Read the file content synchronously
+        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        // Regular expression pattern to match the AssemblyVersion line
+        const versionPattern = /AssemblyVersion\("(\d+\.\d+\.\d+\.\d+)"/;
+        // Extract the AssemblyVersion
+        const match = versionPattern.exec(fileContent);
+        if (match) {
+            return match[1];
+        }
+    }
+    catch (error) {
+        // Handle file reading errors
+        console.error('An error occurred while reading the file:', error);
+    }
+    return undefined;
+}
+exports.readAssemblyVersionSync = readAssemblyVersionSync;
+function readCsProjectVersionSync(filePath) {
+    try {
+        var data = fs.readFileSync(filePath, "utf8");
+        var startStr = "<AssemblyVersion>";
+        var endStr = "</AssemblyVersion>";
+        var start = data.indexOf(startStr) + startStr.length;
+        var end = data.indexOf(endStr);
+        return data.substring(start, end);
+    }
+    catch (error) {
+        // Handle file reading errors
+        console.error('An error occurred while reading the file:', error);
+    }
+    return undefined;
+}
+exports.readCsProjectVersionSync = readCsProjectVersionSync;
+function parseVersion(versionStr) {
+    try {
+        const arr = versionStr.split(".");
+        const result = {
+            source: versionStr,
+            major: arr[0],
+            minor: arr[1],
+            patch: arr[2],
+            build: arr[3]
+        };
+        return result;
+    }
+    catch (error) {
+        // Handle file reading errors
+        console.error('An error occurred parsing versionstring : | ' + versionStr + ' |', error);
+        return undefined;
+    }
+}
+exports.parseVersion = parseVersion;

@@ -8,27 +8,51 @@
  "category": "Utility",
  "author": "Christian Geiger ",
  "version": {
-     "Major": 0,
-     "Minor": 1,
-     "Patch": 0
+     "Major": 1,
+     "Minor": 0,
+     "Patch": 1
  },
  "instanceNameFormat": "Echo $(samplestring)",
  "inputs": [
      {
-         "name": "samplestring",
-         "type": "string",
-         "label": "Sample String",
-         "defaultValue": "",
+         "name": "projectfile",
+         "type": "filePath",
+         "label": "Path to *.*proj and *.cs file",
+         "defaultValue": "**\\*.??proj",
          "required": true,
-         "helpMarkDown": "A sample string"
+         "helpMarkDown": "file to read the version number."
      },
      {
-        "name": "projectfile",
-        "type": "string",
-        "label": "projectfile",
-        "defaultValue": "",
+        "name": "increaseMajor",
+        "type": "boolean",
+        "label": "increase Major",
+        "defaultValue": "false",
+        "required": false,
+        "helpMarkDown": "check this if you want to increase the major"
+    },
+     {
+        "name": "increaseMinor",
+        "type": "boolean",
+        "label": "increase minor",
+        "defaultValue": "false",
+        "required": false,
+        "helpMarkDown": "check this if you want to increase the minor"
+    },
+    {
+        "name": "increasePatch",
+        "type": "boolean",
+        "label": "increase patch",
+        "defaultValue": "false",
+        "required":     false,
+        "helpMarkDown": "check this if you want to increase the patch"
+    },
+    {
+        "name": "increaseBuild",
+        "type": "boolean",
+        "label": "increase build",
+        "defaultValue": "false",
         "required": true,
-        "helpMarkDown": "path of the projectfile"
+        "helpMarkDown": "check this if you want to increase the build"
     }
  ],
  "execution": {
@@ -37,3 +61,10 @@
      }
  }
  }
+
+
+
+ var increaseMajorStr  = tl.getInput('increaseMajor', true);
+ var increaseMinorStr  = tl.getInput('increaseMinor', true);
+ var increaseBuildStr  = tl.getInput('increaseBuild', true);
+ var increasePatchStr  = tl.getInput('increasePatch', true);

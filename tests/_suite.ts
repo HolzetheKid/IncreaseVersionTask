@@ -12,12 +12,9 @@ describe('Sample task tests', function () {
 
     });
 
-   
 
-   
-   
 
-    it('read assembyl.cs', function(done: Mocha.Done) {
+    it('execute read assembyl.cs', function(done: Mocha.Done) {
         this.timeout(1000);
     
         let tp = path.join(__dirname, 'AssemblyTests.js');
@@ -25,17 +22,14 @@ describe('Sample task tests', function () {
     
         tr.run();
         console.log(tr.succeeded);
-        assert.equal(tr.succeeded, false, 'should have failed');
-        assert.equal(tr.warningIssues.length, 0, "should have no warnings");
-        assert.equal(tr.errorIssues.length, 1, "should have 1 error issue");
-        assert.equal(tr.errorIssues[0], 'Bad input was given', 'error issue output');
-        assert.equal(tr.stdout.indexOf('Hello bad'), -1, "Should not display Hello bad");
+        assert.equal(tr.succeeded, true, 'should not failed');
+    
     
         done();
     });
 
 
-    it('read csproj', function(done: Mocha.Done) {
+    it('execute read csproj', function(done: Mocha.Done) {
         this.timeout(1000);
     
         let tp = path.join(__dirname, 'csProjectTests.js');
@@ -43,8 +37,21 @@ describe('Sample task tests', function () {
     
         tr.run();
         console.log(tr.succeeded);
-     
+        assert.equal(tr.succeeded, true, 'should not failed');
+       
+        done();
+    });
+
+    it('execute read tests', function(done: Mocha.Done) {
+        this.timeout(1000);
     
+        let tp = path.join(__dirname, 'readtests.js');
+        let tr: ttm.MockTestRunner = new ttm.MockTestRunner(tp);
+    
+        tr.run();
+        console.log(tr.succeeded);
+        assert.equal(tr.succeeded, true, 'should not failed');
+        
         done();
     });
 });
