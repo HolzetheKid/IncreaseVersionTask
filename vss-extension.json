@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "increase-version-task",
+    "name": "increase version task",
+    "version": "0.0.1",
+    "publisher": "ChristianGeiger",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "a task for increasing your version during the CI .",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/extension-icon.png"        
+    },
+    "files": [
+        {
+            "path": "increaseversiontask"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "increase-version-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "increaseversiontask"
+            }
+        }
+    ]
+}
