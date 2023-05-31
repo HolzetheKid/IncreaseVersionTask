@@ -1,0 +1,109 @@
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  - group: AzureDevOps Task 
+
+
+
+stages:
+  - stage: Run_and_publish_unit_tests
+    jobs:
+      - job:
+        steps:
+          - task: TfxInstaller@4
+            inputs:
+              version: "v0.x"
+          - task: Npm@1
+            inputs:
+              command: 'install'
+              workingDir: 'IncreaseVersionTask' 
+          - task: Bash@3
+            displayName: Compile Javascript
+            inputs:
+              targetType: "inline"
+              script: |
+                cd IncreaseVersionTask 
+                tsc
+          - task: Npm@1
+            inputs:
+              command: 'custom'
+              workingDir: '/increaseversiontask/tests' 
+              customCommand: 'testScript' # See the definition in the explanation section below - it may be called test
+          - task: PublishTestResults@2
+            inputs:
+              testResultsFormat: 'JUnit'
+              testResultsFiles: '**/ResultsFile.xml'
+  - stage: Package_extension_and_publish_build_artifacts
+    jobs:
+      - job:
+        steps:
+          - task: TfxInstaller@4
+            inputs:
+              version: "0.x"
+          - task: Npm@1
+            inputs:
+              command: 'install'
+              workingDir: '/IncreaseVersionTask' 
+          - task: Bash@3
+            displayName: Compile Javascript
+            inputs:
+              targetType: "inline"
+              script: |
+                cd IncreaseVersionTask 
+                tsc
+          - task: QueryAzureDevOpsExtensionVersion@4
+            name: QueryVersion
+            inputs:
+              connectTo: 'VsTeam'
+              connectedServiceName: 'Marketplace Publish Service Connection' 
+              publisherId: '$(PublisherID)'
+              extensionId: '$(ExtensionID)'
+              versionAction: 'Patch'
+          - task: PackageAzureDevOpsExtension@4
+            inputs:
+              rootFolder: '$(System.DefaultWorkingDirectory)'
+              publisherId: '$(PublisherID)'
+              extensionId: '$(ExtensionID)'
+              extensionName: '$(ExtensionName)'
+              extensionVersion: '$(QueryVersion.Extension.Version)'
+              updateTasksVersion: true
+              updateTasksVersionType: 'patch'
+              extensionVisibility: 'private' # Change to public if you're publishing to the marketplace
+              extensionPricing: 'free'
+          - task: CopyFiles@2
+            displayName: "Copy Files to: $(Build.ArtifactStagingDirectory)"
+            inputs:
+              Contents: "**/*.vsix"
+              TargetFolder: "$(Build.ArtifactStagingDirectory)"
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+              ArtifactName: '$(ArtifactName)'
+              publishLocation: 'Container'
+  - stage: Download_build_artifacts_and_publish_the_extension
+    jobs:
+      - job:
+        steps:
+          - task: TfxInstaller@4
+            inputs:
+              version: "v0.x"
+          - task: DownloadBuildArtifacts@0
+            inputs:
+              buildType: "current"
+              downloadType: "single"
+              artifactName: "$(ArtifactName)"
+              downloadPath: "$(System.DefaultWorkingDirectory)"
+          - task: PublishAzureDevOpsExtension@4
+            inputs:
+              connectTo: 'VsTeam'
+              connectedServiceName: 'Marketplace Publish Service Connection' 
+              fileType: 'vsix'
+              vsixFile: '$(PublisherID).$(ExtensionName)/$(PublisherID)..vsix'
+              publisherId: '$(PublisherID)'
+              extensionId: '$(ExtensionID)'
+              extensionName: '$(ExtensionName)'
+              updateTasksVersion: false
+              extensionVisibility: 'private' # Change to public if you're publishing to the marketplace
+              extensionPricing: 'free'
