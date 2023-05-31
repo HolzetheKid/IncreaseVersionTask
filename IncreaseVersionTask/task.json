@@ -1,0 +1,63 @@
+{
+ "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+ "id": "cfbebd6f-58cf-4077-9d66-e0e04362a388",
+ "name": "increaseversion",
+ "friendlyName": "Increase Version",
+ "description": "Increase Version at every Build",
+ "helpMarkDown": "",
+ "category": "Utility",
+ "author": "Christian Geiger ",
+ "version": {
+     "Major": 1,
+     "Minor": 0,
+     "Patch": 1
+ },
+ "instanceNameFormat": "Echo $(samplestring)",
+ "inputs": [
+     {
+         "name": "projectfile",
+         "type": "filePath",
+         "label": "Path to *.*proj and *.cs file",
+         "defaultValue": "**\\*.??proj",
+         "required": true,
+         "helpMarkDown": "file to read the version number."
+     },
+     {
+        "name": "increaseMajor",
+        "type": "boolean",
+        "label": "increase Major",
+        "defaultValue": "false",
+        "required": false,
+        "helpMarkDown": "check this if you want to increase the major"
+    },
+     {
+        "name": "increaseMinor",
+        "type": "boolean",
+        "label": "increase minor",
+        "defaultValue": "false",
+        "required": false,
+        "helpMarkDown": "check this if you want to increase the minor"
+    },
+    {
+        "name": "increasePatch",
+        "type": "boolean",
+        "label": "increase patch",
+        "defaultValue": "false",
+        "required":     false,
+        "helpMarkDown": "check this if you want to increase the patch"
+    },
+    {
+        "name": "increaseBuild",
+        "type": "boolean",
+        "label": "increase build",
+        "defaultValue": "false",
+        "required": true,
+        "helpMarkDown": "check this if you want to increase the build"
+    }
+ ],
+ "execution": {
+     "Node": {
+         "target": "index.js"
+     }
+ }
+ }

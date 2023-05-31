@@ -1,0 +1,1249 @@
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+increase version
+write new  version
+NewVersionStr:111.0.1.1
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    111.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+increase version
+write new  version
+NewVersionStr:111.0.1.1
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    111.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+increase version
+numbervalue 1
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+increase version
+increase major 
+numbervalue 1
+increase minor 
+increase patch
+increase build 
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+config:
+increase major:true
+increase version
+increase major 
+numbervalue 1
+increase minor 
+increase patch
+increase build 
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increasePatch=false
+##vso[task.debug]increaseBuild=true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue 1
+increase minor 
+increase patch
+increase build 
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue 1
+increase minor 
+increase patch
+increase build 
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue 1
+increase minor 
+increase patch
+increase build 
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue 1
+increase minor 
+increase patch
+increase build 
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue 1
+increase minor 
+increase patch
+increase build 
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+false
+false
+false
+true
+-----------
+true
+true
+true
+true
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:true
+increase minor:true
+increase patch:true
+increase build:true
+------
+increase version
+increase major 
+numbervalue 1
+increase minor 
+increase patch
+increase build 
+write new  version
+NewVersionStr:2.1.2.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    2.1.2.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+new Data:﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    1.0.1.2</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+</Project>
+
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+read version from.\tests\samples\WpfApp2.csproj
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\WpfApp2.csproj---
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\WpfApp2.csproj---
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase version
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\WpfApp2.csproj---
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\WpfApp2.csproj---
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\WpfApp2.csproj---
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+------
+---config:---
+increase major:false
+increase minor:false
+increase patch:false
+increase build:true
+------
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
