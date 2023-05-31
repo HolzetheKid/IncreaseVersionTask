@@ -61,10 +61,3 @@
      }
  }
  }
-
-
-
- var increaseMajorStr  = tl.getInput('increaseMajor', true);
- var increaseMinorStr  = tl.getInput('increaseMinor', true);
- var increaseBuildStr  = tl.getInput('increaseBuild', true);
- var increasePatchStr  = tl.getInput('increasePatch', true);
