@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "testScript": "mocha ./TestFile --reporter xunit --reporter-option output=ResultsFile.xml"
+    "testScript": "mocha ./tests --reporter xunit --reporter-option output=ResultsFile.xml"
   },
   "keywords": [],
   "author": "",

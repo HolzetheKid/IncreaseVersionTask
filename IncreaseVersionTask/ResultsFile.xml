@@ -1,0 +1,39 @@
+<testsuite name="Mocha Tests" tests="10" failures="0" errors="3" skipped="0" timestamp="Sat, 10 Jun 2023 19:54:00 GMT" time="1.756">
+<testcase classname="read versionnumber Tests" name="pass assemblyInforcs should return right version values" time="0.001"/>
+<testcase classname="read versionnumber Tests" name="pass csprojec should return right version values" time="0.001"/>
+<testcase classname="read versionnumber Tests" name="pass txt should return undefined" time="0"/>
+<testcase classname="read versionnumber Tests" name="pass code file should return undefined" time="0"/>
+<testcase classname="read versionnumber Tests" name="pass file not exists should return undefined" time="0"/>
+<testcase classname="Sample task tests" name="execute read assembyl.cs" time="0.977"/>
+<testcase classname="Sample task tests" name="execute read csproj" time="0.238"/>
+<testcase classname="Sample task tests" name="execute read tests" time="0.231"><failure>should not failed
+
+      + expected - actual
+
+      -false
+      +true
+      
+AssertionError [ERR_ASSERTION]: should not failed
+    at Context.&#x3C;anonymous&#x3E; (tests\_suite.js:58:16)
+    at process.processImmediate (node:internal/timers:476:21)</failure></testcase>
+<testcase classname="Sample task tests" name="should succeed with simple inputs" time="0.135"><failure>should display Hello human
+
+      + expected - actual
+
+      -false
+      +true
+      
+AssertionError [ERR_ASSERTION]: should display Hello human
+    at Context.&#x3C;anonymous&#x3E; (tests\_suites.js:44:16)
+    at process.processImmediate (node:internal/timers:476:21)</failure></testcase>
+<testcase classname="Sample task tests" name="it should fail if tool returns 1" time="0.168"><failure>should have failed
+
+      + expected - actual
+
+      -true
+      +false
+      
+AssertionError [ERR_ASSERTION]: should have failed
+    at Context.&#x3C;anonymous&#x3E; (tests\_suites.js:53:16)
+    at process.processImmediate (node:internal/timers:476:21)</failure></testcase>
+</testsuite>
