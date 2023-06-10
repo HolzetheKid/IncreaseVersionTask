@@ -6,6 +6,16 @@ import * as utils from './utils'
 async function run() {
     try {
       
+        console.log('======================================================');
+
+        console.log("---config:---");
+        console.log("   increase major:" + config?.increaseMajor);
+        console.log("   increase minor:" + config?.increaseMinor);
+        console.log("   increase patch:" + config?.increasePatch);
+        console.log("   increase build:" + config?.increaseBuild);
+        console.log("   project file:" + config?.file);
+        console.log('======================================================');
+
         var config = utils.readConfig();
 
         if (config?.file == '') {
@@ -20,12 +30,7 @@ async function run() {
         var version = vr.read(config?.file!)
         console.log("------");
         
-        console.log("---config:---");
-        console.log("increase major:" + config?.increaseMajor);
-        console.log("increase minor:" + config?.increaseMinor);
-        console.log("increase patch:" + config?.increasePatch);
-        console.log("increase build:" + config?.increaseBuild);
-        console.log("------");
+   
 
                
         if(config?.increaseMajor && version?.major!= undefined) {
