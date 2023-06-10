@@ -38,6 +38,15 @@ const utils = __importStar(require("./utils"));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
+            console.log('======================================================');
+            console.log("---config:---");
+            console.log("   increase major:" + (config === null || config === void 0 ? void 0 : config.increaseMajor));
+            console.log("   increase minor:" + (config === null || config === void 0 ? void 0 : config.increaseMinor));
+            console.log("   increase patch:" + (config === null || config === void 0 ? void 0 : config.increasePatch));
+            console.log("   increase build:" + (config === null || config === void 0 ? void 0 : config.increaseBuild));
+            console.log("   project file:" + (config === null || config === void 0 ? void 0 : config.file));
+            console.log("------");
+            console.log('======================================================');
             var config = utils.readConfig();
             if ((config === null || config === void 0 ? void 0 : config.file) == '') {
                 console.log("projectPath not set");
@@ -46,12 +55,6 @@ function run() {
             }
             console.log("---read version from" + (config === null || config === void 0 ? void 0 : config.file) + "---");
             var version = vr.read(config === null || config === void 0 ? void 0 : config.file);
-            console.log("------");
-            console.log("---config:---");
-            console.log("increase major:" + (config === null || config === void 0 ? void 0 : config.increaseMajor));
-            console.log("increase minor:" + (config === null || config === void 0 ? void 0 : config.increaseMinor));
-            console.log("increase patch:" + (config === null || config === void 0 ? void 0 : config.increasePatch));
-            console.log("increase build:" + (config === null || config === void 0 ? void 0 : config.increaseBuild));
             console.log("------");
             if ((config === null || config === void 0 ? void 0 : config.increaseMajor) && (version === null || version === void 0 ? void 0 : version.major) != undefined) {
                 console.log("increase major ");
