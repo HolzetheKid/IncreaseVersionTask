@@ -5,8 +5,6 @@ pool:
 variables:
   - group: AzureDevOps Task 
 
-
-
 stages:
   - stage: Run_and_publish_unit_tests
     jobs:
@@ -34,7 +32,7 @@ stages:
           - task: Npm@1
             inputs:
               command: 'custom'
-              workingDir: 'IncreaseVersionTask/tests' 
+              workingDir: 'IncreaseVersionTask' 
               customCommand: 'run testScript' # See the definition in the explanation section below - it may be called test
           - task: PublishTestResults@2
             inputs:
