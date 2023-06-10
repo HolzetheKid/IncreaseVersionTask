@@ -7,7 +7,7 @@ async function run() {
     try {
       
         console.log('======================================================');
-
+        console.log(" Working directory:"+ process.cwd());
         console.log("---config:---");
         console.log("   increase major:" + config?.increaseMajor);
         console.log("   increase minor:" + config?.increaseMinor);
