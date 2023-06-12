@@ -14,6 +14,10 @@ stages:
             inputs:
               version: "v0.x"
           - script: |
+              npm install
+              npm cache clean --force
+              npm install -g npm
+              npm install
               npm install azure-pipelines-task-lib --save
               npm install @types/node --save-dev
               npm install @types/q --save-dev
