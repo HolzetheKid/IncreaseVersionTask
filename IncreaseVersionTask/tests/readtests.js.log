@@ -9,31 +9,5 @@
 ##vso[task.debug]task result: Failed
 ##vso[task.issue type=error;]Unhandled: describe is not defined
 ##vso[task.complete result=Failed;]Unhandled: describe is not defined
-##vso[task.issue type=error;]ReferenceError: describe is not defined%0A    at Object.<anonymous> (C:\Projekte\AzureDevOps\UpdateVersionTask\tests\readtests.js:28:1)%0A    at Module._compile (module.js:577:32)%0A    at Object.Module._extensions..js (module.js:586:10)%0A    at Module.load (module.js:494:32)%0A    at tryModuleLoad (module.js:453:12)%0A    at Function.Module._load (module.js:445:3)%0A    at Module.runMain (module.js:611:10)%0A    at run (bootstrap_node.js:394:7)%0A    at startup (bootstrap_node.js:160:9)%0A    at bootstrap_node.js:507:3
-
-##vso[task.debug]agent.TempDirectory=undefined
-##vso[task.debug]agent.workFolder=undefined
-##vso[task.debug]loading inputs and endpoints
-##vso[task.debug]loaded 0
-##vso[task.debug]Agent.ProxyUrl=undefined
-##vso[task.debug]Agent.CAInfo=undefined
-##vso[task.debug]Agent.ClientCert=undefined
-##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]Unhandled: describe is not defined
-##vso[task.complete result=Failed;]Unhandled: describe is not defined
-##vso[task.issue type=error;]ReferenceError: describe is not defined%0A    at Object.<anonymous> (C:\Projekte\AzureDevOps\UpdateVersionTask\tests\readtests.js:28:1)%0A    at Module._compile (module.js:577:32)%0A    at Object.Module._extensions..js (module.js:586:10)%0A    at Module.load (module.js:494:32)%0A    at tryModuleLoad (module.js:453:12)%0A    at Function.Module._load (module.js:445:3)%0A    at Module.runMain (module.js:611:10)%0A    at run (bootstrap_node.js:394:7)%0A    at startup (bootstrap_node.js:160:9)%0A    at bootstrap_node.js:507:3
-
-##vso[task.debug]agent.TempDirectory=undefined
-##vso[task.debug]agent.workFolder=undefined
-##vso[task.debug]loading inputs and endpoints
-##vso[task.debug]loaded 0
-##vso[task.debug]Agent.ProxyUrl=undefined
-##vso[task.debug]Agent.CAInfo=undefined
-##vso[task.debug]Agent.ClientCert=undefined
-##vso[task.debug]Agent.SkipCertValidation=undefined
-##vso[task.debug]task result: Failed
-##vso[task.issue type=error;]Unhandled: describe is not defined
-##vso[task.complete result=Failed;]Unhandled: describe is not defined
-##vso[task.issue type=error;]ReferenceError: describe is not defined%0A    at Object.<anonymous> (C:\Projekte\AzureDevOps\UpdateVersionTask\tests\readtests.js:28:1)%0A    at Module._compile (module.js:577:32)%0A    at Object.Module._extensions..js (module.js:586:10)%0A    at Module.load (module.js:494:32)%0A    at tryModuleLoad (module.js:453:12)%0A    at Function.Module._load (module.js:445:3)%0A    at Module.runMain (module.js:611:10)%0A    at run (bootstrap_node.js:394:7)%0A    at startup (bootstrap_node.js:160:9)%0A    at bootstrap_node.js:507:3
+##vso[task.issue type=error;]ReferenceError: describe is not defined%0A    at Object.<anonymous> (C:\Projekte\AzureDevOps\UpdateVersionTask\IncreaseVersionTask\tests\readtests.js:28:1)%0A    at Module._compile (module.js:577:32)%0A    at Object.Module._extensions..js (module.js:586:10)%0A    at Module.load (module.js:494:32)%0A    at tryModuleLoad (module.js:453:12)%0A    at Function.Module._load (module.js:445:3)%0A    at Module.runMain (module.js:611:10)%0A    at run (bootstrap_node.js:394:7)%0A    at startup (bootstrap_node.js:160:9)%0A    at bootstrap_node.js:507:3
 

@@ -1745,3 +1745,120 @@ increase build:true
 increase build 
 write new  version
 
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+======================================================
+ Working directory:C:\Projekte\AzureDevOps\UpdateVersionTask\IncreaseVersionTask
+---config:---
+   increase major:undefined
+   increase minor:undefined
+   increase patch:undefined
+   increase build:undefined
+   project file:undefined
+======================================================
+##vso[task.debug]projectfile=./tests/samples/AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from./tests/samples/AssemblyInfo.cs---
+reading file: ./tests/samples/AssemblyInfo.cs
+AssemblyInfo VersionStr:1.0.0.5
+Values:
+   major:1
+   minor:0
+   patch:0
+   build:5
+------
+increase build 
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+======================================================
+ Working directory:C:\Projekte\AzureDevOps\UpdateVersionTask\IncreaseVersionTask
+---config:---
+   increase major:undefined
+   increase minor:undefined
+   increase patch:undefined
+   increase build:undefined
+   project file:undefined
+======================================================
+##vso[task.debug]projectfile=./tests/samples/AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from./tests/samples/AssemblyInfo.cs---
+reading file: ./tests/samples/AssemblyInfo.cs
+AssemblyInfo VersionStr:1.0.0.5
+Values:
+   major:1
+   minor:0
+   patch:0
+   build:5
+------
+increase build 
+write new  version
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+======================================================
+ Working directory:C:\Projekte\AzureDevOps\UpdateVersionTask\IncreaseVersionTask
+---config:---
+   increase major:undefined
+   increase minor:undefined
+   increase patch:undefined
+   increase build:undefined
+   project file:undefined
+======================================================
+##vso[task.debug]projectfile=./tests/samples/AssemblyInfo.cs
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from./tests/samples/AssemblyInfo.cs---
+reading file: ./tests/samples/AssemblyInfo.cs
+AssemblyInfo VersionStr:1.0.0.5
+Values:
+   major:1
+   minor:0
+   patch:0
+   build:5
+------
+increase build 
+write new  version
+

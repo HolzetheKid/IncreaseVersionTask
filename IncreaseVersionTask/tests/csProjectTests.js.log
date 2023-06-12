@@ -1247,3 +1247,126 @@ write new  version
 NewVersionStr:1.0.1.2
 OldVersionStr:<AssemblyVersion>1.0.1.1
 
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+======================================================
+ Working directory:C:\Projekte\AzureDevOps\UpdateVersionTask\IncreaseVersionTask
+---config:---
+   increase major:undefined
+   increase minor:undefined
+   increase patch:undefined
+   increase build:undefined
+   project file:undefined
+======================================================
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\WpfApp2.csproj---
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+------
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+======================================================
+ Working directory:C:\Projekte\AzureDevOps\UpdateVersionTask\IncreaseVersionTask
+---config:---
+   increase major:undefined
+   increase minor:undefined
+   increase patch:undefined
+   increase build:undefined
+   project file:undefined
+======================================================
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\WpfApp2.csproj---
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+------
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+
+##vso[task.debug]agent.TempDirectory=undefined
+##vso[task.debug]agent.workFolder=undefined
+##vso[task.debug]loading inputs and endpoints
+##vso[task.debug]loading INPUT_INCREASEBUILD
+##vso[task.debug]loading INPUT_INCREASEMAJOR
+##vso[task.debug]loading INPUT_INCREASEMINOR
+##vso[task.debug]loading INPUT_INCREASEPATCH
+##vso[task.debug]loading INPUT_PROJECTFILE
+##vso[task.debug]loaded 5
+##vso[task.debug]Agent.ProxyUrl=undefined
+##vso[task.debug]Agent.CAInfo=undefined
+##vso[task.debug]Agent.ClientCert=undefined
+##vso[task.debug]Agent.SkipCertValidation=undefined
+======================================================
+ Working directory:C:\Projekte\AzureDevOps\UpdateVersionTask\IncreaseVersionTask
+---config:---
+   increase major:undefined
+   increase minor:undefined
+   increase patch:undefined
+   increase build:undefined
+   project file:undefined
+======================================================
+##vso[task.debug]projectfile=.\tests\samples\WpfApp2.csproj
+##vso[task.debug]increaseMajor=false
+##vso[task.debug]increaseMinor=false
+##vso[task.debug]increaseBuild=true
+##vso[task.debug]increasePatch=false
+---read version from.\tests\samples\WpfApp2.csproj---
+reading file: .\tests\samples\WpfApp2.csproj
+csproj VersionStr:1.0.1.1
+Values:
+   major:1
+   minor:0
+   patch:1
+   build:1
+------
+increase build 
+write new  version
+NewVersionStr:1.0.1.2
+OldVersionStr:<AssemblyVersion>1.0.1.1
+

@@ -25,7 +25,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const read = __importStar(require("../readWriteVersion"));
 const assert = __importStar(require("assert"));
-describe("read versionnumber Tests", () => {
+describe('read versionnumber Tests', () => {
     it("pass assemblyInforcs should return right version values", () => {
         const result = read.read('.\\tests\\samples\\AssemblyInfo.cs');
         assert.equal(result === null || result === void 0 ? void 0 : result.major, '1');
@@ -33,22 +33,22 @@ describe("read versionnumber Tests", () => {
         assert.equal(result === null || result === void 0 ? void 0 : result.patch, '0');
         assert.equal(result === null || result === void 0 ? void 0 : result.build, '5');
     });
-    it("pass csprojec should return right version values", () => {
+    it('pass csprojec should return right version values', () => {
         const result = read.read('.\\tests\\samples\\WpfApp2.csproj');
         assert.equal(result === null || result === void 0 ? void 0 : result.major, '1');
         assert.equal(result === null || result === void 0 ? void 0 : result.minor, '0');
         assert.equal(result === null || result === void 0 ? void 0 : result.patch, '1');
         assert.equal(result === null || result === void 0 ? void 0 : result.build, '1');
     });
-    it("pass txt should return undefined", () => {
+    it('pass txt should return undefined', () => {
         const result = read.read('.\\tests\\samples\\RandomFile.txt');
         assert.equal(result, undefined);
     });
-    it("pass code file should return undefined", () => {
+    it('pass code file should return undefined', () => {
         const result = read.read('.\\tests\\samples\\RandomCode.cs');
         assert.equal(result, undefined);
     });
-    it("pass file not exists should return undefined", () => {
+    it('pass file not exists should return undefined', () => {
         const result = read.read('.\\tests\\samples\\RandomFilexxxx.txt');
         assert.equal(result, undefined);
     });
