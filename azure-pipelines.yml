@@ -36,7 +36,7 @@ stages:
           - task: Npm@1
             inputs:
               command: 'custom'
-              workingDir: 'IncreaseVersionTask' 
+              workingDir: '/IncreaseVersionTask' 
               customCommand: 'run testScript' # See the definition in the explanation section below - it may be called test
           - task: PublishTestResults@2
             inputs:
