@@ -4,7 +4,7 @@ const tmrm = require("azure-pipelines-task-lib/mock-run");
 const path = require("path");
 let taskPath = path.join(__dirname, '..', 'index.js');
 let tmr = new tmrm.TaskMockRunner(taskPath);
-tmr.setInput('projectfile', '.\\tests\\samples\\AssemblyInfo.cs');
+tmr.setInput('projectfile', './tests/samples/AssemblyInfo.cs');
 tmr.setInput('increaseMajor', 'false');
 tmr.setInput('increaseMinor', 'false');
 tmr.setInput('increasePatch', 'false');

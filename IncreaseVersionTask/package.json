@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "testScript": "mocha ./tests --reporter xunit --reporter-option output=ResultsFile.xml"
+    "testScript": "mocha tests/_suite.js --reporter xunit --reporter-option output=ResultsFile.xml"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +27,8 @@
     "sync-request": "^6.1.0"
   },
   "directories": {
-    "test": "tests"
+    "test": "tests",
+    "samples": "tests/samples"
   },
   "description": ""
 }
