@@ -14,10 +14,14 @@ stages:
             inputs:
               version: "v0.x"
           - script: |
+              npm install azure-pipelines-task-lib --save
+              npm install @types/node --save-dev
+              npm install @types/q --save-dev
               npm install mocha --save-dev -g
               npm install sync-request --save-dev
               npm install @types/mocha --save-dev
-            displayName: 'npm install mocha'
+              npm install typescript@4.6.3 -g --save-dev
+            displayName: 'npm installs'
           - task: Npm@1
             inputs:
               command: 'install'
