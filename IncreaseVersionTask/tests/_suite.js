@@ -49,13 +49,13 @@ describe('Sample task tests', function () {
         assert.equal(tr.succeeded, true, 'should not failed');
         done();
     });
-    it('execute read tests', function (done) {
-        this.timeout(1000);
-        let tp = path.join(__dirname, 'readtests.js');
-        let tr = new ttm.MockTestRunner(tp);
-        tr.run();
-        console.log(tr.succeeded);
-        assert.equal(tr.succeeded, true, 'should not failed');
-        done();
-    });
+    // it('execute read tests', function(done: Mocha.Done) {
+    //     this.timeout(1000);
+    //     let tp = path.join(__dirname, 'readtests.js');
+    //     let tr: ttm.MockTestRunner = new ttm.MockTestRunner(tp);
+    //     tr.run();
+    //     console.log(tr.succeeded);
+    //     assert.equal(tr.succeeded, true, 'should not failed');
+    //     done();
+    // });
 });

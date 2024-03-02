@@ -1,5 +1,4 @@
 import tl = require('azure-pipelines-task-lib/task');
-import fs from "fs";
 import * as vr from './readWriteVersion'
 import * as utils from './utils'
 

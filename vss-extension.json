@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "increase-version-task",
     "name": "increase version task",
-    "version": "0.0.1",
+    "version": "0.0.7",
     "publisher": "ChristianGeiger",
     "targets": [
         {
